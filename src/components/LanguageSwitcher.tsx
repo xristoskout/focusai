@@ -32,8 +32,7 @@ export default function LanguageSwitcher({ lang }: { lang: string }) {
         textDecoration: "none",
       }}
     >
-      <span style={{ fontSize: "1rem" }}>{lang === "en" ? "🇬🇷" : "🇬🇧"}</span>
-      {lang === "en" ? "Ελληνικά" : "English"}
+      {lang === "en" ? "GR" : "EN"}
     </Link>
   );
 }

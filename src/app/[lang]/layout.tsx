@@ -9,7 +9,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: lang === 'el' ? 'Focus AI | Ψηφιακή Αριστεία' : 'Focus AI | Digital Excellence',
+    title: lang === 'el' ? 'Focus AI | Ψηφιακή Υπεροχή' : 'Focus AI | Digital Excellence',
     description: lang === 'el'
       ? 'Σύγχρονες ιστοσελίδες, ψηφιακό marketing και υποστήριξη AI για την επιχείρησή σας.'
       : 'Modern websites, targeted digital marketing, and AI assistance solutions for your business with Focus AI.',
