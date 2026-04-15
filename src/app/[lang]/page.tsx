@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionaries";
 import InteractiveHero from "@/components/InteractiveHero";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import ContactButton from "@/components/ContactButton";
 
 export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -20,13 +21,13 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
             <LanguageSwitcher lang={lang} />
-            <a
-              href="#contact"
+            <ContactButton
+              formTexts={d.contact.form}
               className="btn btn-primary"
               style={{ padding: "0.6rem 1.5rem", fontSize: "0.9rem", background: "#00d0ff" }}
             >
               {d.nav.contact}
-            </a>
+            </ContactButton>
           </div>
         </div>
       </nav>
@@ -105,8 +106,8 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
             <h2>{d.contact.title}</h2>
             <p style={{ marginBottom: "2.5rem" }}>{d.contact.desc}</p>
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <a
-                href={`mailto:${d.contact.email}`}
+              <ContactButton
+                formTexts={d.contact.form}
                 className="btn btn-primary"
                 style={{
                   fontSize: "1.1rem",
@@ -117,7 +118,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
                 }}
               >
                 ✉️ {d.contact.email}
-              </a>
+              </ContactButton>
             </div>
           </div>
         </div>

@@ -27,7 +27,16 @@
   "contact": {
     "title": "Let's build the future together",
     "desc": "Ready to transform your digital presence with Focus AI? Reach out to us today and let's create something extraordinary.",
-    "email": "focus@gogreecenow.com"
+    "email": "info@focusai.gr",
+    "form": {
+      "title": "Send us a message",
+      "name": "Your Name",
+      "emailField": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message",
+      "cancel": "Cancel",
+      "success": "Thank you! Your message has been sent successfully."
+    }
   },
   "footer": {
     "rights": "© 2026 Focus AI. All rights reserved."
