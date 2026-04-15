@@ -189,6 +189,32 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  section {
+    padding: 5rem 0;
+  }
+
+  .btn {
+    padding: 0.9rem 1.5rem;
+    font-size: 0.95rem !important;
+    word-break: break-word;
+    max-width: 100%;
+  }
+
+  .glass-card {
+    padding: 1.8rem;
+  }
+
+  nav {
+    padding: 1rem 0;
+  }
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;

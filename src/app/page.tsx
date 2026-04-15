@@ -74,9 +74,21 @@ export default function Home() {
           <div className="glass-card" style={{ maxWidth: '800px', margin: '0 auto', border: '1px solid rgba(0, 208, 255, 0.2)' }}>
             <h2>Let's build the future together</h2>
             <p style={{ marginBottom: '2.5rem' }}>Ready to transform your digital presence with Focus AI? Reach out to us today and let's create something extraordinary.</p>
-            <a href="mailto:focus@gogreecenow.com" className="btn btn-primary" style={{ fontSize: '1.2rem', background: '#00d0ff' }}>
-              ✉️ focus@gogreecenow.com
-            </a>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <a 
+                href="mailto:focus@gogreecenow.com" 
+                className="btn btn-primary" 
+                style={{ 
+                  fontSize: '1.1rem', 
+                  background: '#00d0ff',
+                  wordBreak: 'break-all',
+                  textAlign: 'center',
+                  maxWidth: '100%'
+                }}
+              >
+                ✉️ focus@gogreecenow.com
+              </a>
+            </div>
           </div>
         </div>
       </section>
