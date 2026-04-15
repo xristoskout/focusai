@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Digital Excellence",
+    "titleHighlight": "Focus AI",
+    "titleWith": "with",
+    "subtitle": "Unleash the power of intelligence. We build the future of digital presence through advanced AI integration and premium design."
+  },
+  "services": {
+    "title": "Our Expertise",
+    "subtitle": "Intelligence-driven solutions for your business growth.",
+    "web": {
+      "title": "Website Creation",
+      "desc": "Modern, extremely fast, and highly aesthetic web applications designed to convert your visitors into customers."
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "desc": "Data-driven advertising campaigns, precise targeting, and brand building to maximize your ROI."
+    },
+    "ai": {
+      "title": "AI Assistance",
+      "desc": "Integration of Artificial Intelligence technologies to automate and optimize your business processes."
+    }
+  },
+  "contact": {
+    "title": "Let's build the future together",
+    "desc": "Ready to transform your digital presence with Focus AI? Reach out to us today and let's create something extraordinary.",
+    "email": "focus@gogreecenow.com"
+  },
+  "footer": {
+    "rights": "© 2026 Focus AI. All rights reserved."
+  }
+}
