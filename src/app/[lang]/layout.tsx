@@ -13,7 +13,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: lang === 'el'
       ? 'Σύγχρονες ιστοσελίδες, ψηφιακό marketing και υποστήριξη AI για την επιχείρησή σας.'
       : 'Modern websites, targeted digital marketing, and AI assistance solutions for your business with Focus AI.',
-    icons: { icon: "/favicon.ico" },
+    icons: {
+      icon: "/favicon.ico",
+      shortcut: "/favicon.ico",
+      apple: "/favicon.ico",
+    },
   };
 }
 
