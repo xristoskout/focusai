@@ -62,7 +62,8 @@ export default function ContactButton({ children, formTexts, className, style }:
       });
 
       if (!response.ok) {
-        throw new Error('Failed to send message');
+        const errorData = await response.json();
+        throw new Error(errorData.details || 'Failed to send message');
       }
 
       setIsSubmitted(true);
@@ -72,9 +73,9 @@ export default function ContactButton({ children, formTexts, className, style }:
         setIsOpen(false);
         setTimeout(() => setIsSubmitted(false), 300);
       }, 4000);
-    } catch (err) {
+    } catch (err: any) {
       console.error(err);
-      setError('Υπήρξε κάποιο πρόβλημα. Παρακαλώ δοκιμάστε ξανά.');
+      setError(err.message || 'Υπήρξε κάποιο πρόβλημα. Παρακαλώ δοκιμάστε ξανά.');
     } finally {
       setIsSending(false);
     }

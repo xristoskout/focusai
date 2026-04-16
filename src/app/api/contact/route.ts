@@ -22,6 +22,9 @@ export async function POST(request: Request) {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASSWORD,
       },
+      tls: {
+        rejectUnauthorized: false, // Helps with some shared hosting/Plesk setups
+      },
     });
 
     const mailOptions = {
@@ -42,13 +45,26 @@ export async function POST(request: Request) {
       `,
     };
 
+    console.log('Attempting to send email with config:', {
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
+      user: process.env.SMTP_USER,
+    });
+
     await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
 
     return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error('Error sending email:', error);
+  } catch (error: any) {
+    console.error('Detailed SMTP Error:', {
+      message: error.message,
+      code: error.code,
+      command: error.command,
+      response: error.response,
+      stack: error.stack
+    });
     return NextResponse.json(
-      { error: 'Failed to send email' },
+      { error: 'Failed to send email', details: error.message },
       { status: 500 }
     );
   }
