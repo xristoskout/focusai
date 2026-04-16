@@ -11,8 +11,11 @@ function getLocale(request: NextRequest): string {
   return defaultLocale
 }
 
-export function proxy(request: NextRequest) {
+export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
+
+  // Don't localize API routes
+  if (pathname.startsWith('/api/')) return
 
   // Skip if a locale is already in the path
   const pathnameHasLocale = locales.some(
@@ -29,7 +32,7 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Skip _next internals and static files
-    '/((?!_next|favicon.ico|images|.*\\..*).*)',
+    // Skip _next internals, static files, and API routes
+    '/((?!api|_next|favicon.ico|images|.*\\..*).*)',
   ],
 }
