@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getDictionary, hasLocale, Locale } from "./dictionaries";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
+import "../globals.css";
 
 export async function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'el' }]
@@ -30,6 +32,13 @@ export default async function LangLayout({
 }) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
-  // No html/body here — handled by root layout
-  return <>{children}</>;
+
+  return (
+    <html lang={lang}>
+      <body>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
 }
