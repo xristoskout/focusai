@@ -11,10 +11,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: lang === 'el' ? 'Focus AI | Ψηφιακή Υπεροχή' : 'Focus AI | Digital Excellence',
+    title: lang === 'el' 
+      ? 'Focus AI | Ψηφιακή Υπεροχή με Ιστοσελίδες, AI Assistants & Digital Marketing' 
+      : 'Focus AI | Digital Excellence with Websites, AI Assistants & Digital Marketing',
     description: lang === 'el'
-      ? 'Σύγχρονες ιστοσελίδες, ψηφιακό marketing και υποστήριξη AI για την επιχείρησή σας.'
-      : 'Modern websites, targeted digital marketing, and AI assistance solutions for your business with Focus AI.',
+      ? 'Η Focus AI δημιουργεί επαγγελματικές ιστοσελίδες, AI assistants και digital marketing λύσεις για σύγχρονες επιχειρήσεις που θέλουν καλύτερη online παρουσία και περισσότερα αποτελέσματα.'
+      : 'Focus AI creates professional websites, AI assistants, and digital marketing solutions for modern businesses wanting better online presence and more results.',
     icons: {
       icon: "/favicon.ico",
       shortcut: "/favicon.ico",

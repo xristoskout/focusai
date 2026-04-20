@@ -1,44 +1,319 @@
 {
   "nav": {
-    "contact": "Contact Us"
+    "contact": "Contact",
+    "services": "Services",
+    "industries": "Industries",
+    "about": "About",
+    "blog": "Blog",
+    "caseStudies": "Case Studies"
   },
   "hero": {
-    "title": "Digital Excellence",
-    "titleHighlight": "Focus AI",
-    "titleWith": "with",
-    "subtitle": "Unleash the power of intelligence. We build the future of digital presence through advanced AI integration and premium design."
+    "eyebrow": "Digital Excellence with Focus AI",
+    "title": "Website Development, AI Assistants & Digital Marketing",
+    "subtitle": "We create fast websites, smart AI systems, and targeted digital solutions that help businesses gain more leads and better results.",
+    "cta1": "View Services",
+    "cta2": "Request Quote"
+  },
+  "intro": {
+    "title": "Building the online presence your business deserves",
+    "content": "Focus AI creates modern digital solutions for businesses that want to stand out. From professional websites and multilingual sites to AI assistants and digital marketing strategies, we design every project with growth, speed, and conversion in mind."
   },
   "services": {
-    "title": "Our Expertise",
-    "subtitle": "Intelligence-driven solutions for your business growth.",
+    "title": "Our Services",
+    "subtitle": "We offer comprehensive solutions for businesses that want a strong, modern, and efficient digital profile.",
     "web": {
-      "title": "Website Creation",
-      "desc": "Modern, extremely fast, and highly aesthetic web applications designed to convert your visitors into customers."
+      "title": "Website Development",
+      "desc": "We design modern, fast, and professional websites that enhance your business image and create the right conditions for more contacts, bookings, and sales."
+    },
+    "ai": {
+      "title": "AI Assistants",
+      "desc": "We integrate smart AI assistants that help with customer service, answering frequent questions, collecting leads, and automating basic business processes."
     },
     "marketing": {
       "title": "Digital Marketing",
-      "desc": "Data-driven advertising campaigns, precise targeting, and brand building to maximize your ROI."
-    },
-    "ai": {
-      "title": "AI Assistance",
-      "desc": "Integration of Artificial Intelligence technologies to automate and optimize your business processes."
+      "desc": "We build targeted digital presence with strategy, ads, and content that help your business reach the right audience and achieve measurable results."
     }
   },
+  "whyUs": {
+    "title": "Why Choose Focus AI",
+    "subtitle": "We don't just create beautiful websites. We create digital experiences with strategy, modern aesthetics, and a focus on results.",
+    "items": [
+      "Modern design that exudes professionalism and reliability",
+      "Fast performance for better user experience and stronger SEO base",
+      "SEO-friendly structure so your site can build a better organic presence",
+      "AI integration for smarter service and automation",
+      "Multilingual solutions for businesses targeting international audiences",
+      "Focus on conversion so your presence is not just beautiful, but productive"
+    ]
+  },
+  "industries": {
+    "title": "Solutions for Modern Professionals and Businesses",
+    "subtitle": "We work with businesses and professionals who want to significantly upgrade their image and performance on the internet.",
+    "items": [
+      "Hotels and tourist accommodations",
+      "Restaurants and catering businesses",
+      "Local businesses and shops",
+      "Freelancers",
+      "Service businesses",
+      "Brands wanting a modern digital presence"
+    ]
+  },
+  "process": {
+    "title": "How We Work",
+    "step1": { "title": "Needs Analysis", "desc": "We discuss your business, your goals, and the audience you are targeting." },
+    "step2": { "title": "Strategy & Proposal", "desc": "We organize the right structure, design direction, and functions you need." },
+    "step3": { "title": "Design & Implementation", "desc": "We create the website or solution that truly fits your brand and needs." },
+    "step4": { "title": "Delivery & Evolution", "desc": "We deliver a professional solution ready for growth, promotion, and future optimization." }
+  },
+  "caseStudiesSection": {
+    "title": "Projects that turn ideas into real digital presence",
+    "content": "Every project is different. See examples of our work and discover how we combine design, technology, and strategy to create modern and efficient solutions.",
+    "cta": "View Case Studies"
+  },
+  "blogSection": {
+    "title": "Ideas, insights, and practical tips for modern digital presence",
+    "content": "On the Focus AI blog, we share useful ideas for websites, AI assistants, digital marketing, SEO, and online business growth.",
+    "cta": "Read Blog"
+  },
+  "pages": {
+    "web": {
+      "title": "Website Development",
+      "metaTitle": "Website Development | Focus AI",
+      "metaDesc": "Professional website development by Focus AI. Modern design, SEO optimization and fast performance for every business.",
+      "problem": "Your website is your first impression — if it's not professional, fast and modern, you lose customers before they even get to know you.",
+      "intro": "At Focus AI we don't just build websites — we create digital storefronts that reflect the quality of your business and actively work to bring results. Every project starts with understanding your goals and ends with a modern, fast, multilingual and SEO-optimized website that converts visitors into customers. We work with the latest technologies — Next.js, React, headless CMS — so the result is exceptional for both the user and Google.",
+      "forWho": "Suitable for businesses of all sizes: hotels, restaurants, freelancers, local businesses, e-shops, service offices, startups and any brand that wants a strong online presence.",
+      "includes": [
+        "Custom design tailored to your brand",
+        "Responsive & Mobile-First development",
+        "SEO Optimization (on-page, metadata, schema)",
+        "Fast loading and performance optimization",
+        "Multilingual support (Greek / English)",
+        "SSL Certificate & basic security",
+        "Analytics & conversion tracking",
+        "Training and technical support"
+      ],
+      "benefits": [
+        { "icon": "⚡", "title": "Fast Loading", "desc": "Our websites load in fractions of a second, improving user experience and helping with Google rankings." },
+        { "icon": "📱", "title": "Mobile-First Design", "desc": "Over 70% of users browse from mobile. Every page is designed first for mobile devices and works perfectly on all screens." },
+        { "icon": "🔍", "title": "SEO from Day One", "desc": "It's not an add-on — SEO is built into the structure, code and content from the very beginning." },
+        { "icon": "🎨", "title": "Unique Design", "desc": "Every website is custom designed, not a template. The design reflects the identity and values of your brand." },
+        { "icon": "🌐", "title": "Multilingual Support", "desc": "For businesses targeting international visitors, we create complete multilingual solutions from the ground up." },
+        { "icon": "🔧", "title": "Easy Management", "desc": "We deliver websites with a user-friendly content management system — you can add content yourself, easily." }
+      ],
+      "result": "A professional website that loads fast, ranks on Google and converts visitors into customers.",
+      "faq": [
+        { "q": "How long does it take to build a website?", "a": "A professional website is usually delivered in 2–4 weeks. Projects with e-commerce or complex features may take 4–8 weeks. In every case, we agree on the timeline upfront." },
+        { "q": "Do I need technical knowledge to manage the website?", "a": "No. We deliver websites with a simple CMS (content management system) that allows updates to texts, images and pages without any technical knowledge." },
+        { "q": "What happens after the website is delivered?", "a": "We offer training and technical support. We can also take over maintenance and updating of the website on a monthly basis." },
+        { "q": "Can the new website help with SEO?", "a": "Absolutely. Every website we build follows SEO best practices — from code structure to meta tags, structured data and loading speed." }
+      ]
+    },
+    "ai": {
+      "title": "AI Assistants for Business",
+      "metaTitle": "AI Assistants for Business | Focus AI",
+      "metaDesc": "Smart AI assistants for businesses by Focus AI. Automate customer service, 24/7 response and lead collection.",
+      "problem": "Missing calls, messages and opportunities because you can't keep up? An AI assistant solves this — automatically, 24 hours a day.",
+      "intro": "AI assistants are no longer a privilege of large corporations. At Focus AI, we create smart, personalized automated service systems that understand your customers' needs, answer their queries, collect leads and handle bookings — all automatically. Every AI assistant is trained based on your specific business: your products, services and communication style. The result? A digital partner that works for you even while you sleep.",
+      "forWho": "Ideal for hotels, restaurants, medical centers, law firms, e-shops, travel agencies and any business that receives frequent questions or bookings from customers.",
+      "includes": [
+        "Custom AI chatbot trained for your business",
+        "Integration on website, WhatsApp & Messenger",
+        "Automatic FAQ answering (FAQ automation)",
+        "Lead collection and contact details capture",
+        "Booking system connection",
+        "Multilingual service (Greek / English)",
+        "Conversation monitoring dashboard",
+        "Training and continuous model improvement"
+      ],
+      "benefits": [
+        { "icon": "🕐", "title": "24/7 Service", "desc": "Your AI assistant never sleeps. It answers customers on weekends, evenings and holidays — without extra staffing costs." },
+        { "icon": "🎯", "title": "Targeted Leads", "desc": "The assistant asks smart questions, collects details and sends you only quality leads ready for follow-up." },
+        { "icon": "💬", "title": "Natural Conversation", "desc": "It doesn't feel like a robot. It uses natural language tailored to your business's communication style." },
+        { "icon": "📊", "title": "Analytics", "desc": "See what customers ask, which hours they're most active and where you're losing opportunities — to continuously improve." },
+        { "icon": "🔗", "title": "Integration Everywhere", "desc": "Works on your website, WhatsApp Business, Facebook Messenger and other channels." },
+        { "icon": "💰", "title": "Cost Reduction", "desc": "Replaces or supplements expensive call centers and significantly reduces your staff's workload." }
+      ],
+      "result": "Every customer receives an instant response, every lead is automatically recorded — even at midnight.",
+      "faq": [
+        { "q": "How long does it take to implement an AI assistant?", "a": "Usually 1–3 weeks depending on complexity. We start with an analysis of your business, train the model and integrate it into your channels." },
+        { "q": "Can the AI assistant speak both Greek and English?", "a": "Yes. It automatically detects the user's language and responds in the corresponding language without additional setup." },
+        { "q": "What happens if the AI can't answer?", "a": "In cases where there's no suitable answer, the assistant forwards the conversation to you via email or notification, so no customer is lost." }
+      ]
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "metaTitle": "Digital Marketing | Focus AI",
+      "metaDesc": "Targeted digital marketing strategies by Focus AI. Google Ads, SEO, Social Media and content that delivers real results.",
+      "problem": "Have a website but it's not bringing visitors? Running ads but not seeing results? You need strategy, not random actions.",
+      "intro": "Digital marketing is not just a few social media posts. It's a systematic strategy that combines the right channel, the right message and the right audience to produce measurable results. At Focus AI, we build structured digital strategies that strengthen your organic presence, increase targeted traffic and convert visitors into customers. We don't sell services — we sell results.",
+      "forWho": "Ideal for businesses that want to increase their online sales, build recognition in their market or start their digital marketing with the right foundations.",
+      "includes": [
+        "SEO Strategy & Optimization (on/off page)",
+        "Google Ads & Meta Ads (creation & management)",
+        "Content strategy",
+        "Social Media Management & growth",
+        "Email marketing & automation",
+        "Local SEO for local businesses",
+        "Analytics & monthly results report",
+        "Conversion Rate Optimization (CRO)"
+      ],
+      "benefits": [
+        { "icon": "🔍", "title": "Organic Growth", "desc": "We build your organic presence on Google so the right people find you without paying for every click." },
+        { "icon": "🎯", "title": "Targeted Ads", "desc": "We create and manage Google & Meta Ads that reach exactly the audience you want, with optimal spend performance." },
+        { "icon": "📝", "title": "Content that Converts", "desc": "We write texts, posts and articles that position your business as an expert in its field and build trust." },
+        { "icon": "📊", "title": "Measurable Results", "desc": "Every action is tracked and measured. You receive a monthly report with a complete picture of performance." },
+        { "icon": "📍", "title": "Local SEO", "desc": "If your business serves local customers, we help you dominate local Google Maps searches." },
+        { "icon": "🔄", "title": "Continuous Improvement", "desc": "We don't set it and leave. We continuously monitor, analyze and optimize the performance of every campaign." }
+      ],
+      "result": "More targeted visitors, more leads, better brand recognition — with measurable results every month.",
+      "faq": [
+        { "q": "How soon will I see results?", "a": "Paid ads (Google Ads, Meta Ads) start showing results within the first few days. Organic SEO typically requires 3–6 months to build visible presence." },
+        { "q": "Do I need a budget for ads?", "a": "The advertising budget depends on your goals and market. We start with an analysis and recommend the minimum effective budget for your specific case." },
+        { "q": "How are you different from other agencies?", "a": "We don't follow template solutions. Every strategy is built from scratch for your business, based on your market, competition and goals." }
+      ]
+    },
+    "hotels": {
+      "title": "Website & Digital Solutions for Hotels",
+      "metaTitle": "Hotel Website | Focus AI",
+      "metaDesc": "Professional hotel websites with booking engine, AI concierge and SEO optimization. More direct bookings with Focus AI.",
+      "problem": "Paying high commissions to Booking.com and Airbnb when you could have direct bookings through your own website?",
+      "intro": "A hotel, villa or accommodation website is not just a digital brochure. It's the primary tool for direct bookings, reducing commissions and showcasing your unique identity. At Focus AI, we create hotel websites that combine premium aesthetics, high speed, inline booking engine and multilingual support — all designed to convert every visitor into a customer. We can also integrate an AI concierge that will serve your guests 24/7, answering questions and assisting with the booking process.",
+      "forWho": "Suitable for hotels of all sizes, boutique hotels, villa rentals, agrotourism units, rented rooms and any accommodation that wants to increase direct bookings.",
+      "includes": [
+        "Custom design with premium aesthetics",
+        "Integrated booking engine (direct booking)",
+        "Multilingual website (Greek, English, etc.)",
+        "Virtual tours & gallery room showcase",
+        "AI Concierge for 24/7 guest service",
+        "SEO optimization for local & international searches",
+        "Google Hotels & channel manager integration",
+        "Reviews & social proof integration system"
+      ],
+      "benefits": [
+        { "icon": "📅", "title": "Direct Bookings", "desc": "With an inline booking engine, guests book rooms directly from your website — without intermediary platforms and without commissions." },
+        { "icon": "🌍", "title": "International Reach", "desc": "Multilingual websites targeting Greek and foreign travelers, with proper SEO optimization for each market." },
+        { "icon": "🤖", "title": "AI Concierge", "desc": "A smart AI assistant answers guest questions about availability, prices, services and local attractions — 24/7 automatically." },
+        { "icon": "📸", "title": "Experience Showcase", "desc": "With premium galleries, virtual tours and storytelling, we highlight the uniqueness of your property and create an emotional connection with visitors." },
+        { "icon": "⭐", "title": "Reviews & Trust", "desc": "We integrate reviews from Google, TripAdvisor and Booking to build trust directly on your website." },
+        { "icon": "📊", "title": "Performance Tracking", "desc": "See where visitors come from, which pages interest them and what makes them leave — for continuous improvement." }
+      ],
+      "result": "More direct bookings, lower commissions, better guest experience — from the first moment they find you online.",
+      "faq": [
+        { "q": "Do I already need a website to work with you?", "a": "No. We build websites from scratch. If you already have a website, we can upgrade or completely replace it." },
+        { "q": "Does the booking engine work with the system I already use?", "a": "We connect the booking engine with the most popular channel managers (SiteMinder, Little Hotelier, etc.) for automatic availability and price synchronization." },
+        { "q": "How will tourists find me on Google?", "a": "We optimize the website for local searches ('hotel Santorini', 'boutique hotel Mykonos'), Google Hotels and international searches in English and other languages." }
+      ]
+    },
+    "restaurants": {
+      "title": "Website & Digital Solutions for Restaurants",
+      "metaTitle": "Restaurant & Café Website | Focus AI",
+      "metaDesc": "Professional websites for restaurants, cafés and bars with digital menu, online reservations and local SEO. Grow your customers with Focus AI.",
+      "problem": "Your customers search for a restaurant on Google and don't find you — or they find you but the website doesn't persuade them to make a reservation.",
+      "intro": "The online presence of a restaurant, café or bar is now equally important as the décor and menu. At Focus AI, we create websites for food service venues that showcase the atmosphere, menu and experience you offer — while making it easy for customers to make a reservation, view the menu or contact you. With Local SEO optimization, you're everywhere they search: Google Maps, TripAdvisor and web search.",
+      "forWho": "Restaurants, cafés, bars, bistros, pizzerias, take-away, catering and any food service business that wants a strong online presence and more customers.",
+      "includes": [
+        "Custom design that showcases your atmosphere",
+        "Digital Menu (with photos & prices)",
+        "Online table reservation system",
+        "Local SEO & Google Maps Optimization",
+        "Integration with delivery platforms",
+        "Instagram & Social Media connection",
+        "Reviews system (Google, TripAdvisor)",
+        "Mobile-first & fast loading"
+      ],
+      "benefits": [
+        { "icon": "🗺️", "title": "Google Maps Dominance", "desc": "You appear at the top when someone searches 'restaurant near me'. Local SEO is the most effective way to bring customers." },
+        { "icon": "📋", "title": "Digital Menu", "desc": "A beautiful, easy-to-read digital menu for mobile — with photos, allergens and prices. Can be updated instantly without printing costs." },
+        { "icon": "📅", "title": "Online Reservations", "desc": "Allow customers to book a table 24/7, even when the phone doesn't answer. Reduces no-shows with automatic reminders." },
+        { "icon": "📸", "title": "Visual Storytelling", "desc": "The impression starts online. We showcase the atmosphere, dishes and experience of your venue with premium visual design." },
+        { "icon": "⭐", "title": "Social Proof", "desc": "We integrate reviews from Google and TripAdvisor, boosting credibility and driving decision-making." },
+        { "icon": "📱", "title": "Social Media Connection", "desc": "Your Instagram feed appears on the website, keeping content alive and updated without extra work." }
+      ],
+      "result": "More customers through Google, fewer lost bookings and an online image that reflects the quality of your venue.",
+      "faq": [
+        { "q": "Can I update the menu myself?", "a": "Yes. We deliver a system that allows you to change prices, dishes and photos yourself, easily and quickly." },
+        { "q": "Do you connect with delivery platforms?", "a": "Yes, we can integrate links and widgets for delivery platforms." },
+        { "q": "How does Local SEO help me?", "a": "We optimize your Google Business Profile, build local keywords into the website and ensure you appear in the right local searches." }
+      ]
+    },
+    "tourism": {
+      "title": "Digital Solutions for Tourism & Travel",
+      "metaTitle": "Travel Agency Website | Focus AI",
+      "metaDesc": "Professional websites for travel agencies, tour operators and activity providers. Multilingual support, online bookings and SEO by Focus AI.",
+      "problem": "Travelers search online, compare and book in minutes. If your website doesn't impress and doesn't make booking easy, you lose customers to the competition.",
+      "intro": "Tourism is one of the most competitive industries online. Travelers make decisions quickly, based on experience, credibility and ease. At Focus AI, we create websites for travel agencies, tour operators, activity providers and excursion offices that combine stunning visual design, comprehensive service presentation and an online booking system — in multiple languages. Your presence stands out, booking is easy, results are measurable.",
+      "forWho": "Travel agencies, tour operators, activity providers, boat rental companies, guided tour providers and any tourism services business that wants to reach Greek and international audiences.",
+      "includes": [
+        "Premium design focused on visual storytelling",
+        "Multilingual site (Greek, English, German, etc.)",
+        "Online booking & inquiry forms per service",
+        "Experience showcase with galleries & videos",
+        "SEO optimization for international searches",
+        "Google Maps integration & interaction",
+        "Blog / Travel Guide for organic traffic",
+        "Reviews & trust signals system"
+      ],
+      "benefits": [
+        { "icon": "🌍", "title": "International Market", "desc": "Multilingual websites that speak each traveler's language, dramatically increasing booking probability." },
+        { "icon": "🏔️", "title": "Storytelling that Sells", "desc": "We showcase the experiences you offer with premium photography, video and text that makes travelers want to live that experience." },
+        { "icon": "🗓️", "title": "Online Bookings", "desc": "Online booking system or inquiry form per service, availability and pricing — automating part of the sales process." },
+        { "icon": "🔍", "title": "Travel SEO", "desc": "Targeted SEO for travel searches: 'boat tour Santorini', 'guided tour Athens' — capturing organic traffic with buying intent." },
+        { "icon": "✅", "title": "Trust & Credibility", "desc": "Reviews, certifications, badges and social proof that build trust — crucial for a traveler deciding from home." },
+        { "icon": "📈", "title": "Content Marketing", "desc": "Travel guides and blog articles that bring organic traffic from travelers searching for information about your destination." }
+      ],
+      "result": "Your business looks professional, ranks on Google, and takes bookings from travelers around the world.",
+      "faq": [
+        { "q": "How many languages can the website be in?", "a": "We typically work with Greek, English and if needed German or French. Each language version is separately SEO-optimized." },
+        { "q": "Can travelers book directly?", "a": "Yes, we integrate an online booking system or inquiry form per service that you receive immediately with email notification." },
+        { "q": "Do you also help with content (texts, photos)?", "a": "Yes, we can take over writing SEO-optimized texts for each service and advise on photographic material." }
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog & Resources",
+    "subtitle": "Learn how technology can help your business.",
+    "posts": [
+      { "title": "How much does a professional website cost?", "slug": "cost-of-website", "desc": "Analysis of the factors that shape the price." },
+      { "title": "How does an AI assistant help a business?", "slug": "ai-assistant-benefits", "desc": "Automation and improvement of service." },
+      { "title": "Hotel website: what should it include?", "slug": "hotel-website-features", "desc": "The necessary elements for more bookings." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "How much does a professional website cost?",
+    "a1": "The cost depends on your needs. Contact us for a free quote.",
+    "q2": "How does an AI assistant help my business?",
+    "a2": "It automates service, answers customers instantly, and reduces operating costs."
+  },
   "contact": {
-    "title": "Let's build the future together",
-    "desc": "Ready to transform your digital presence with Focus AI? Reach out to us today and let's create something extraordinary.",
+    "title": "Ready to upgrade your business's digital presence?",
+    "desc": "If you want a professional website, a smart AI assistant, or a stronger digital strategy, we are here to design it together.",
     "email": "info@focusai.gr",
     "form": {
       "title": "Send us a message",
       "name": "Your Name",
       "emailField": "Your Email",
       "message": "Your Message",
-      "send": "Send Message",
+      "send": "Send",
       "cancel": "Cancel",
       "success": "Thank you! Your message has been sent successfully."
     }
   },
   "footer": {
-    "rights": "© 2026 Focus AI. All rights reserved."
+    "rights": "© 2026 Focus AI. All rights reserved.",
+    "summary": "Focus AI creates modern websites, AI assistants, and digital marketing solutions for businesses that want to stand out."
+  },
+  "aboutPage": {
+    "title": "Who We Are",
+    "subtitle": "Our mission is to help Greek businesses succeed in the digital age.",
+    "content": "At Focus AI, we combine our experience in website construction with the most modern AI solutions. We believe that every business, regardless of size, deserves a premium digital presence."
+  },
+  "contactPage": {
+    "title": "Contact",
+    "subtitle": "We are here to answer any questions you may have.",
+    "info": "You can find us via email or phone, or fill out the contact form."
   }
 }
+
+
